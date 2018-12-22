@@ -18,7 +18,7 @@ Detection of Mental Health diseases with accuracy by means of generating a body 
 
 ## Primay TechStacks
 
-![TechStacks](https://github.com/Sai-Adarsh/ThermalAI/blob/master/WorkingPhotos/Tech%20Stacks.jpg)
+![TechStacks]()
 ## Install
 
 ### Training & Testing
