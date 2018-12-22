@@ -46,7 +46,7 @@ Place your own thermal dataset in training_data and testing_data folders,
 
    $ pip install -r requirements.txt
    ```
-### Look into and change the respective project path in:
+### Open and change the project path inside these files respectively:
  * project\thermalai\predictor\predict.py
  * tutorial-2-image-classifier\predict.py
  * tutorial-2-image-classifier\train.py
