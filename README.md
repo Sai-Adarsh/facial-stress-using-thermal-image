@@ -11,6 +11,8 @@ Detection of Mental Health diseases with accuracy by means of generating a body 
 * [Dataset](http://vcipl-okstate.org/pbvs/bench/Data/04/download.html)
 * [Sample Dataset](http://vcipl-okstate.org/pbvs/bench/Data/04/face01.zip) 
 
+## Primay TechStacks !!
+
 ![TechStacks](https://github.com/Sai-Adarsh/ThermalAI/blob/master/Tech%20Stacks.jpg)
 ## Install
 
