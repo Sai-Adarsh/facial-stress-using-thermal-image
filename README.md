@@ -6,6 +6,8 @@ Detection of Mental Health diseases with accuracy by means of generating a body 
 
 * For working **photos and videos** [click here](https://github.com/Sai-Adarsh/ThermalAI/tree/master/WorkingPhotos).
 
+
+## Architecture 
 ![Architecture](https://github.com/Sai-Adarsh/ThermalAI/blob/master/Architecture%20.jpg)
 
 ## Dataset !!
