@@ -11,6 +11,9 @@ Detection of Mental Health diseases with accuracy by means of generating a body 
 * [Dataset](http://vcipl-okstate.org/pbvs/bench/Data/04/download.html)
 * [Sample Dataset](http://vcipl-okstate.org/pbvs/bench/Data/04/face01.zip) 
 
+![TechStacks](https://github.com/Sai-Adarsh/ThermalAI/blob/master/Tech%20Stacks.jpg)
+## Install
+
 ### Training & Testing
 
 How to train:
@@ -22,8 +25,6 @@ Place your own thermal dataset in training_data and testing_data folders,
 
    $ python train.py
    ```
-![TechStacks](https://github.com/Sai-Adarsh/ThermalAI/blob/master/Tech%20Stacks.jpg)
-## Install
 
 ### How to run:  
 
