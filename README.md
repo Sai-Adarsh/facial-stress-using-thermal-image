@@ -4,6 +4,8 @@
  
 Detection of Mental Health diseases with accuracy by means of generating a body heat map of the patient with the help of a thermal camera and applying techniques of image processing and Deep Learning image classification models to measure the magnitude of the detected disease
 
+For working photos and videos [click here](https://github.com/Sai-Adarsh/ThermalAI/tree/master/WorkingPhotos)
+
 ![Architecture](https://github.com/Sai-Adarsh/ThermalAI/blob/master/Architecture%20.jpg)
 
 ## Dataset !!
