@@ -94,7 +94,7 @@ Place your own thermal dataset in training_data and testing_data folders,
 <p align="center"> Made with ❤ by <a href="https://github.com/sai-adarsh">Sai Adarsh</a></p>
 
 
-### Research papers, News, Articles & sources
+### Research papers, news, articles & sources
 
 [Paper 1](https://www.semanticscholar.org/paper/Facial-Thermal-Image-Analysis-for-Stress-Detection-Hong-Liu/2e8ccf7156629bcf14d43b946397eb04a14b9d78),
 [Paper 2](http://www.pnas.org/content/pnas/suppl/2013/12/26/1321664111.DCSupplemental/pnas.201321664SI.pdf),
