@@ -47,7 +47,7 @@ Place your own thermal dataset in training_data and testing_data folders,
    ```   
 
 ### To run through RaspberryPi (with cam):
-   Open a new cmd terminal
+   Open a new cmd terminal(Make sure Raspbian OS is installed in RaspberryPi
    ```sh
    $ cd project\thermalai\thermalai
    ```
@@ -55,7 +55,17 @@ Place your own thermal dataset in training_data and testing_data folders,
    ```sh
    $ python manage.py runserver
    ```
-   
+   ```sh
+   $ cd RaspberryPi
+   ```
+   For Windows
+   ```sh
+   $ runthisstress.sh
+   ```
+   For Linux
+   ```sh
+   $ ./runthisstress.sh
+   ```
 
 ### Author
 
