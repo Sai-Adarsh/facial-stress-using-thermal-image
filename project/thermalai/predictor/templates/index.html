@@ -109,9 +109,9 @@
 
 
 
-<div id="myProgress">
+<!--<div id="myProgress">
   <div id="myBar"></div>
-</div>
+</div>-->
 
   <p id="demo">0%</p>
   <img class="responsive" src="https://mir-cdn.behance.net/v1/rendition/project_modules/max_1200/6bb82369437027.5b8133fa9d08c.png"></img>
@@ -153,6 +153,12 @@ function move() {
   var elem = document.getElementById("myBar"); 
   var width = 1;
   var result = {{ result }};
+  if (result >= 98) {
+  	window.alert("Not Stressed");
+  }
+  else {
+  	window.alert("Stressed");
+  }
   var id = setInterval(frame, 10);
   function frame() {
     if (width >= result*100) {
