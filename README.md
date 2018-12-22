@@ -58,6 +58,9 @@ Place your own thermal dataset in training_data and testing_data folders,
    ```
    Add desired host and it's ports in **ALLOWED_HOSTS** of **settings.py**
    ```sh
+   $ cd project\thermalai
+   ```
+   ```sh
    $ python manage.py runserver
    ```
    ```sh
