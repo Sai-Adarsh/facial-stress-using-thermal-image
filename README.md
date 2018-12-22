@@ -39,7 +39,7 @@ Place your own thermal dataset in training_data and testing_data folders,
 
 ### How to run:  
 
-Look into and change the respective project path in
+### Look into and change the respective project path in:
 * project\thermalai\predictor\predict.py
 * tutorial-2-image-classifier\predict.py
 * tutorial-2-image-classifier\train.py
