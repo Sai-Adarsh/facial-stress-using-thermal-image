@@ -21,6 +21,8 @@ Place your own thermal dataset in training_data and testing_data folders,
    $ python train.py
    ```
 
+![Architecture](https://github.com/Sai-Adarsh/ThermalAI/blob/master/Architecture%20.jpg)
+
 ## Install
 
 ### How to run:  
