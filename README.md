@@ -21,7 +21,7 @@ Place your own dataset in training_data and testing_data folders,
    $ python train.py
    ```
 
-### Install
+## Install
 
 ### How to run:  
 
