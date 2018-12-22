@@ -1,13 +1,19 @@
 # Thermal-AI
-## Learning Japanese
 
-## About
- 
- Rajasekar vithai
+## Theme
 
-## Start Today !!
+AI in Healthcare
 
-* [Colors](https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/Start%20learning/colors) 
+## Problem Statement
+
+Inaccuracy and Uncertainty in diagnosing mental health diseases like stress, depression and anxiety.
+
+
+## Based on the Research made by [Aalto University](https://www.pnas.org/content/pnas/suppl/2013/12/26/1321664111.DCSupplemental/pnas.201321664SI.pdf)
+
+## Our Solution
+
+“Detection of Mental Health diseases with accuracy by means of generating a body heat map of the patient with the help of a thermal camera and applying techniques of image processing and Deep Learning image classification models to measure the magnitude of the detected disease.”
 
 ### Training & Testing
 
