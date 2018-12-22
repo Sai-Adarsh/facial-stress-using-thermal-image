@@ -23,7 +23,7 @@ Place your own dataset in training_data and testing_data folders,
 
 ### Install
 
-How to run:  
+### How to run:  
 
 ```sh
    $ git clone https://github.com/sai-adarsh/ThermalAI.git
@@ -32,21 +32,21 @@ How to run:
 
    $ pip install -r requirements.txt
    ```
-After installing all requirements, to run in cmd:
+### After installing all requirements, to run in cmd:
    ```sh
    $ cd tutorial-2-image-classifier
 
    $ python predict.py <imageInputFileName.extension>
    ```
 
-To run the WebApp:
+### To run the WebApp:
    ```sh
    $ cd project\thermalai
 
    $ python manage.py runserver
    ```   
 
-To run through RaspberryPi (with cam):
+### To run through RaspberryPi (with cam):
    Open a new cmd terminal
    ```sh
    $ cd project\thermalai\thermalai
