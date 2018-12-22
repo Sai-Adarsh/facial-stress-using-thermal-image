@@ -1,0 +1,175 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Appendly | Waste Segregation</title>
+<style type="text/css">
+
+	@font-face {
+	    font-family: 'Roboto'; /*a name to be used later*/
+	    src: url('fonts/Roboto-Regular.ttf'); /*URL to font*/
+	}
+	.button
+	{
+		height: 40px;
+		width: 100px;
+		background-color: #011638;
+		
+	}
+	.bg
+	{
+		background-image: linear-gradient(#4253f4, #d941f4);
+		/*background: #3f3f3f; */
+		background-repeat: none;
+		font-family: 'Roboto';
+		color: white;
+	}
+	.column
+	{
+		max-height: 500px;
+		max-width: 800px;
+		height: 90%;
+		width: 97%;
+		font-family: 'Roboto';
+		background-image: url('https://d1sr9z1pdl3mb7.cloudfront.net/wp-content/uploads/2013/07/25184907/face-thermal.jpg');
+		background-position: center;
+		background-color: #282828;
+		background-size: 300px 250px;
+		background-repeat: no-repeat;
+		border-style: solid;
+    	border-width: 20px;
+		border-radius: 10px;
+		border-color: #6bf442;
+		color: white;
+	}
+	.meter 
+	{ 
+		height: 20px;
+		background-color: red  /* Can be anything */
+	}
+	.responsive {
+    width: 100%;
+    height: auto;
+}
+.firebasecss
+{
+	height: 100px;
+	width: 500px;
+	background-color: black;
+	color: white;
+	border-radius: 15px;
+	opacity: 0.5;
+}
+
+#myProgress {
+  width: 100%;
+  background-color: grey;
+}
+
+#myBar {
+  width: 1%;
+  height: 30px;
+  background-color: green;
+}
+</style>
+</head>
+<body class="bg">
+</body>
+</html>	
+<br><br>
+<center><h1>Appendly - Facial Stress detection</h1></center>
+
+<center><h2>Detects Stress based on Facial Thermal level</h2></center><br><br>
+<center>
+<div class="column">
+	
+	<!--<img height="150" width="150" src="http://www.odocs-tech.com/wp-content/uploads/2017/05/fundus-photo-300x300.png"></img>-->
+	<h2>Upload image of face</h2>
+	
+<center><form action="{% url 'index' %}" method="post" enctype="multipart/form-data">
+	 {% csrf_token %}
+	{{ form }}
+	<button class="w3-button w3-green" type="submit"><font color="white">Submit</font></button>
+	 
+
+	
+</form></center>
+<br>&nbsp;&nbsp;<button class="w3-button w3-green" onclick="move()">Click to Know the Accuracy</button>
+<button class="w3-button w3-green" onclick="wommaDaddy()">FB</button>
+&nbsp;
+<a href="mailto:saiadarshsivakumar@gmail.com?Subject=The%20Trashes%20are%20ready" class="w3-button w3-green" target="_top">Send Mail to HR</a>
+<center><h2>Result : {{ result }}</h2></center>
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+<div class="w3-container">
+
+
+
+<div id="myProgress">
+  <div id="myBar"></div>
+</div>
+
+  <p id="demo">0%</p>
+  <img class="responsive" src="https://mir-cdn.behance.net/v1/rendition/project_modules/max_1200/6bb82369437027.5b8133fa9d08c.png"></img>
+  <br><br>
+ 	<!--FIREBASE -->
+ 	<div class="firebasecss">
+ 		<br><img height="50px" width="30px" src="https://firebase.google.com/downloads/brand-guidelines/PNG/logo-vertical.png"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 		<input type="file" id="fileButton"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img height="50px" width="30px" src="https://firebase.google.com/downloads/brand-guidelines/PNG/logo-vertical.png"/>
+ 	</div>
+ 	
+	<script src="https://www.gstatic.com/firebasejs/5.7.1/firebase.js"></script>
+	<script>
+	  // Initialize Firebase
+	  var config = {
+	    apiKey: "AIzaSyAxMZsVlw93F8y7RfS298WJ26gh_dhBamU",
+	    authDomain: "thermalai-5f619.firebaseapp.com",
+	    databaseURL: "https://thermalai-5f619.firebaseio.com",
+	    projectId: "thermalai-5f619",
+	    storageBucket: "thermalai-5f619.appspot.com",
+	    messagingSenderId: "1055643145376"
+	  };
+	  firebase.initializeApp(config);
+	</script>
+	<script>
+              var fileButton = document.getElementById("fileButton");
+              fileButton.addEventListener('change', function(e){
+                  var file = e.target.files[0];
+                  var storageRef = firebase.storage().ref(file.name);
+                  storageRef.put(file);
+              });  
+           </script>
+  <!--<button class="w3-button w3-green" onclick="move()">Click to Know the Risk</button> -->
+</div>
+
+
+
+<script>
+function move() {
+  var elem = document.getElementById("myBar"); 
+  var width = 1;
+  var result = {{ result }};
+  var id = setInterval(frame, 10);
+  function frame() {
+    if (width >= result*100) {
+      clearInterval(id);
+    } else {
+      width++; 
+      elem.style.width = width + '%'; 
+    }
+  }
+}
+</script>
+
+
+
+
+
+</div></center>
+
+
+<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="f286391a-eecb-46f5-a022-5b81a4c5c3f4";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>

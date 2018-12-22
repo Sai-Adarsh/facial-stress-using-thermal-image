@@ -1,0 +1,25 @@
+ <html>
+        <body>
+            <input type="file" id="fileButton"/>
+            <script src="https://www.gstatic.com/firebasejs/3.7.0/firebase.js"></script>
+            <script>
+            // Initialize Firebase
+                 var config = {
+                 apiKey: *//YOUR API KEY//*,
+                 authDomain: *//YOUR AUTH DOMAIN//*,
+                 databaseURL: *//YOUR DATABASE URL//*,
+                 storageBucket: *//YOUR STORAGE BUCKET//*,
+                 messagingSenderId: *//YOUR MESSAGING ID//*
+                };
+                firebase.initializeApp(config);
+           </script>
+           <script>
+              var fileButton = document.getElementById("fileButton");
+              fileButton.addEventListener('change', function(e){
+                  var file = e.target.files[0];
+                  var storageRef = firebase.storage().ref(file.name);
+                  storageRef.put(file);
+              });  
+           </script>
+      </body>
+</html>

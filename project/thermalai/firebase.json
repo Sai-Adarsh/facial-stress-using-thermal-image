@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "diabeticretinopathy-81002.firebaseapp.com",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
