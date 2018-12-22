@@ -93,12 +93,12 @@ Place your own thermal dataset in training_data and testing_data folders,
 
 ### Research papers & sources
 
-[Paper 1](https://www.semanticscholar.org/paper/Facial-Thermal-Image-Analysis-for-Stress-Detection-Hong-Liu/2e8ccf7156629bcf14d43b946397eb04a14b9d78)
-[Paper 2](http://www.pnas.org/content/pnas/suppl/2013/12/26/1321664111.DCSupplemental/pnas.201321664SI.pdf)
-[Source 1](https://www.businesstoday.in/lifestyle/off-track/indians-suffer-from-stress-depression/story/280119.html)
-[Source 2](https://economictimes.indiatimes.com/magazines/panache/89-per-cent-of-indias-population-suffering-from-stress-most-dont-feel-comfortable-talking-to-medical-professionals/articleshow/64926633.cms)
-[Source 3](https://www.mentalhealth.org.uk/statistics/mental-health-statistics-stress)
-[Paper 4](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3968009/)
-[Paper 5](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0090782)
-[Paper 6](https://www.researchgate.net/publication/261206963_Modeling_Stress_Using_Thermal_Facial_Patterns_A_Spatio-Temporal_Approach)
+[Paper 1](https://www.semanticscholar.org/paper/Facial-Thermal-Image-Analysis-for-Stress-Detection-Hong-Liu/2e8ccf7156629bcf14d43b946397eb04a14b9d78),
+[Paper 2](http://www.pnas.org/content/pnas/suppl/2013/12/26/1321664111.DCSupplemental/pnas.201321664SI.pdf),
+[Source 1](https://www.businesstoday.in/lifestyle/off-track/indians-suffer-from-stress-depression/story/280119.html),
+[Source 2](https://economictimes.indiatimes.com/magazines/panache/89-per-cent-of-indias-population-suffering-from-stress-most-dont-feel-comfortable-talking-to-medical-professionals/articleshow/64926633.cms),
+[Source 3](https://www.mentalhealth.org.uk/statistics/mental-health-statistics-stress),
+[Paper 4](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3968009/),
+[Paper 5](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0090782),
+[Paper 6](https://www.researchgate.net/publication/261206963_Modeling_Stress_Using_Thermal_Facial_Patterns_A_Spatio-Temporal_Approach).
 
