@@ -4,6 +4,8 @@
  
 Detection of Mental Health diseases with accuracy by means of generating a body heat map of the patient with the help of a thermal camera and applying techniques of image processing and Deep Learning image classification models to measure the magnitude of the detected disease
 
+![Architecture](https://github.com/Sai-Adarsh/ThermalAI/blob/master/Architecture%20.jpg)
+
 ## Dataset !!
 
 * [Dataset](http://vcipl-okstate.org/pbvs/bench/Data/04/download.html)
@@ -20,8 +22,6 @@ Place your own thermal dataset in training_data and testing_data folders,
 
    $ python train.py
    ```
-
-![Architecture](https://github.com/Sai-Adarsh/ThermalAI/blob/master/Architecture%20.jpg)
 
 ## Install
 
