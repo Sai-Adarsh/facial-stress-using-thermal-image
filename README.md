@@ -22,7 +22,7 @@ Place your own thermal dataset in training_data and testing_data folders,
 
    $ python train.py
    ```
-
+![TechStacks](https://github.com/Sai-Adarsh/ThermalAI/blob/master/Tech%20Stacks.jpg)
 ## Install
 
 ### How to run:  
