@@ -54,7 +54,7 @@ Place your own dataset in training_data and testing_data folders,
    Add desired host and it's ports in ALLOWED_HOSTS of settings.py
    ```sh
    $ python manage.py runserver
-    ```
+   ```
    
 
 ### Author
