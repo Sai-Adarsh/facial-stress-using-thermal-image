@@ -1,13 +1,13 @@
 # Thermal-AI
-## Learning Japanese
 
-## About
+## Project Description
  
- Rajasekar vithai
+Detection of Mental Health diseases with accuracy by means of generating a body heat map of the patient with the help of a thermal camera and applying techniques of image processing and Deep Learning image classification models to measure the magnitude of the detected disease
 
-## Start Today !!
+## Dataset !!
 
-* [Colors](https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/Start%20learning/colors) 
+* [Dataset](http://vcipl-okstate.org/pbvs/bench/Data/04/download.html)
+* [Sample Dataset](http://vcipl-okstate.org/pbvs/bench/Data/04/face01.zip) 
 
 ### Training & Testing
 
