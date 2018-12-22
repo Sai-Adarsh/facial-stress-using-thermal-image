@@ -39,12 +39,6 @@ Place your own thermal dataset in training_data and testing_data folders,
 
 ### How to run:  
 
-### Look into and change the respective project path in:
-* project\thermalai\predictor\predict.py
-* tutorial-2-image-classifier\predict.py
-* tutorial-2-image-classifier\train.py
-
-
 ```sh
    $ git clone https://github.com/sai-adarsh/ThermalAI.git
 
@@ -52,6 +46,12 @@ Place your own thermal dataset in training_data and testing_data folders,
 
    $ pip install -r requirements.txt
    ```
+### Look into and change the respective project path in:
+ * project\thermalai\predictor\predict.py
+ * tutorial-2-image-classifier\predict.py
+ * tutorial-2-image-classifier\train.py
+
+
 ### After installing all requirements, to run in cmd:
    ```sh
    $ cd tutorial-2-image-classifier
