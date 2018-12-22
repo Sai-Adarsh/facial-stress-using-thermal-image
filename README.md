@@ -12,7 +12,7 @@ Detection of Mental Health diseases with accuracy by means of generating a body 
 ### Training & Testing
 
 How to train:
-Place your own dataset in training_data and testing_data folders,
+Place your own thermal dataset in training_data and testing_data folders,
 
 ```sh
 
