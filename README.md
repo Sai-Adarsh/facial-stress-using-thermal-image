@@ -70,6 +70,8 @@ Place your own thermal dataset in training_data and testing_data folders,
 ### Author
 
 [Sai Adarsh](https://github.com/sai-adarsh)
+[Rajasekar](https://github.com/rajasekar1999)
+[Sibi Bose](https://www.linkedin.com/in/sibi-bose-8683b6150/)
 
 [<img src="https://image.flaticon.com/icons/svg/185/185961.svg" width="35" padding="10">](https://twitter.com/dialstudios)
 [<img src="https://image.flaticon.com/icons/svg/185/185964.svg" width="35" padding="10">](linkedin.com/in/sai-adarsh/)
