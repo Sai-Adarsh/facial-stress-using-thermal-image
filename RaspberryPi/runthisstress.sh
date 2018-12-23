@@ -8,7 +8,7 @@ do
 
 	#Taking a snap and sending it to server
 	raspistill -o "$FNAME"
-	RESULT=$(curl -s -F "file=@$FNAME" http://192.168.43.22:8000/predict | grep -w "var result" | awk '{print $4}' | sed 's/.$//')
+	RESULT=$(curl -s -F "file=@$FNAME" http://url/predict | grep -w "var result" | awk '{print $4}' | sed 's/.$//')
 	echo "$FNAME uploaded..."
 
 	#Getting result
@@ -16,7 +16,7 @@ do
 	RESULT=$(echo $RESULT | sed s'/....$//')
 
 	#Identifying Confidence from result
-	CMP=$(awk 'BEGIN{ print "'$RESULT'"<"'0.9'" }')
+	CMP=$(awk 'BEGIN{ print "'$RESULT'"<"'98'" }')
 
 	#Checking stress through confidence
 	if [ "$CMP" -eq 1 ]
@@ -29,7 +29,7 @@ do
 		python buzz.py 0
 		sudo python LED.py 0
 	fi
-	echo "\n"
+	printf "\n"
 
 	#Preparing for next cycle
 	CT=$((CT+1))
