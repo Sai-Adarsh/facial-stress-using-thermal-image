@@ -104,7 +104,7 @@ Place your own thermal dataset in training_data and testing_data folders,
    ```sh
    $ ./runthisstress.sh
    ```
-* ## The stress and no stress score is detected and displayed. 
+## The stress and no stress score is detected and displayed. 
 
 ### Author
 
