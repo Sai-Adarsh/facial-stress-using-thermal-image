@@ -25,6 +25,10 @@ Oklahoma State University](http://vcipl-okstate.org/pbvs/bench/Data/04/face01.zi
 ![TechStacks](https://raw.githubusercontent.com/Sai-Adarsh/ThermalAI/master/WorkingPhotos/Tech%20Stacks.jpg)
 ## Install
 
+### Activate Virtualenv
+
+[Click here](https://stackoverflow.com/questions/14604699/how-to-activate-virtualenv) to read about activating virtualenv.
+
 ### Training & Testing
 
 How to train:
