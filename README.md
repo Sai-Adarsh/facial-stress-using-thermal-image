@@ -8,6 +8,8 @@
 
 * For working **photos and videos** [click here](https://github.com/Sai-Adarsh/ThermalAI/tree/master/WorkingPhotos).
 * To know **information** more about the [problem & our solution](https://github.com/Sai-Adarsh/ThermalAI/blob/master/Phase1/Team%20Appendly%20-%20Shaastra%20AI%20Challenge%202018%20Phase%20I%20Ideation.pdf)
+* Shaastra [Phase1](https://github.com/Sai-Adarsh/ThermalAI/tree/master/Phase1) deck.
+* Shaastra [Phase2](https://github.com/Sai-Adarsh/ThermalAI/tree/master/Phase2) deck.
 
 
 ## Architecture 
