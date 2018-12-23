@@ -29,11 +29,11 @@ Oklahoma State University](http://vcipl-okstate.org/pbvs/bench/Data/04/face01.zi
 
 [Click here](https://stackoverflow.com/questions/14604699/how-to-activate-virtualenv) to read about activating virtualenv.
 
-#### * For Linux
+* #### For Linux
 ```sh
    $ source ./venv/bin/activate
 ```
-#### * For windows
+* #### For windows
 ```sh
    $ cd venv/Scripts/
 ```
