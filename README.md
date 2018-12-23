@@ -20,7 +20,7 @@ Oklahoma State University](http://vcipl-okstate.org/pbvs/bench/Data/04/download.
 * [Sample Dataset - Visual Computing and Image Processing Lab 
 Oklahoma State University](http://vcipl-okstate.org/pbvs/bench/Data/04/face01.zip) 
 
-## Primay TechStacks
+## TechStacks
 
 ![TechStacks](https://raw.githubusercontent.com/Sai-Adarsh/ThermalAI/master/WorkingPhotos/Tech%20Stacks.jpg)
 ## Install
