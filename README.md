@@ -121,6 +121,7 @@ Place your own thermal dataset in training_data and testing_data folders,
 
 <p align="center"> Made with ❤ by <a href="https://github.com/sai-adarsh">Sai Adarsh</a></p>
 
+![Working](https://github.com/Sai-Adarsh/ThermalAI/blob/master/WorkingPhotos/working.gif)
 
 ### Research papers, news, articles & sources
 
