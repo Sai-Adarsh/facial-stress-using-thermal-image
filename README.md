@@ -8,8 +8,6 @@
 
 * For working **photos and videos** [click here](https://github.com/Sai-Adarsh/ThermalAI/tree/master/WorkingPhotos).
 * To know **information** more about the [problem & our solution](https://github.com/Sai-Adarsh/ThermalAI/blob/master/Phase1/Team%20Appendly%20-%20Shaastra%20AI%20Challenge%202018%20Phase%20I%20Ideation.pdf)
-* Shaastra [Phase1](https://github.com/Sai-Adarsh/ThermalAI/tree/master/Phase1) deck.
-* Shaastra [Phase2](https://github.com/Sai-Adarsh/ThermalAI/tree/master/Phase2) deck.
 
 
 ## Architecture 
@@ -112,8 +110,9 @@ Place your own thermal dataset in training_data and testing_data folders,
 ### Author
 
 [Sai Adarsh](https://github.com/sai-adarsh),
-[Rajasekar](https://github.com/rajasekar1999),
-[Sibi Bose](https://www.linkedin.com/in/sibi-bose-8683b6150/).
+[Hari Prasath](https://www.linkedin.com/in/hari-prassath-27b3a4172/),
+[Sibi Bose](https://www.linkedin.com/in/sibi-bose-8683b6150/),
+[Surya Vimladithan](https://www.linkedin.com/in/surya-vimladithan-3a43a1179).
 
 [<img src="https://image.flaticon.com/icons/svg/185/185961.svg" width="35" padding="10">](https://twitter.com/dialstudios)
 [<img src="https://image.flaticon.com/icons/svg/185/185964.svg" width="35" padding="10">](linkedin.com/in/sai-adarsh/)
