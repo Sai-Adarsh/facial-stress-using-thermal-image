@@ -109,6 +109,8 @@ Place your own thermal dataset in training_data and testing_data folders,
 
 ### Author
 
+<p align="center"> Made with ❤</p>
+
 [Sai Adarsh](https://github.com/sai-adarsh),
 [Hari Prasath](https://www.linkedin.com/in/hari-prassath-27b3a4172/),
 [Sibi Bose](https://www.linkedin.com/in/sibi-bose-8683b6150/),
@@ -118,8 +120,6 @@ Place your own thermal dataset in training_data and testing_data folders,
 [<img src="https://image.flaticon.com/icons/svg/185/185964.svg" width="35" padding="10">](linkedin.com/in/sai-adarsh/)
 [<img src="https://image.flaticon.com/icons/svg/185/185981.svg" width="35" padding="10">](https://www.facebook.com/saiadarsh99)
 [<img src="https://image.flaticon.com/icons/svg/185/185985.svg" width="35" padding="10">](https://www.instagram.com/adarsh_theories/)
-
-<p align="center"> Made with ❤ by <a href="https://github.com/sai-adarsh">Sai Adarsh</a></p>
 
 
 ### Research papers, news, articles & sources
