@@ -11,7 +11,7 @@
 
 
 ## Architecture 
-![Architecture](https://github.com/Sai-Adarsh/ThermalAI/blob/master/WorkingPhotos/Architecture%20.jpg)
+![Architecture](https://github.com/rajasekar1999/ThermalAI-1/blob/master/WorkingPhotos/Anokha%20-%20ML%20Marksman%20V2.0.jpg)
 
 ## Dataset !!
 
