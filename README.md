@@ -1,31 +1,27 @@
 # Facial Stress using Thermal Image
 
-## Project Description
+### Project Description
  
 * Detection of Mental Health diseases with accuracy by means of generating a body heat map of the patient with the help of a thermal camera and applying techniques of image processing and Deep Learning image classification models to measure the magnitude of the detected disease.
-
 * For working **photos and videos** [click here](https://github.com/Sai-Adarsh/ThermalAI/tree/master/WorkingPhotos).
-* To know **information** more about the [problem & our solution](https://github.com/Sai-Adarsh/ThermalAI/blob/master/Phase1/Team%20Appendly%20-%20Shaastra%20AI%20Challenge%202018%20Phase%20I%20Ideation.pdf)
+* To know **information** more about the [problem & our solution](https://github.com/Sai-Adarsh/ThermalAI/blob/master/Phase1/Team%20Appendly%20-%20Shaastra%20AI%20Challenge%202018%20Phase%20I%20Ideation.pdf).
 
 
-## Architecture 
-![Architecture](https://github.com/rajasekar1999/ThermalAI-1/blob/master/WorkingPhotos/Anokha%20-%20ML%20Marksman%20V2.0.jpg)
-
-## Dataset !!
+### Dataset
 
 * [Dataset - Visual Computing and Image Processing Lab 
 Oklahoma State University](http://vcipl-okstate.org/pbvs/bench/Data/04/download.html)
 * [Sample Dataset - Visual Computing and Image Processing Lab 
 Oklahoma State University](http://vcipl-okstate.org/pbvs/bench/Data/04/face01.zip) 
 
-## TechStacks
+### Tech Stack
+![Tech Stack](https://raw.githubusercontent.com/Sai-Adarsh/ThermalAI/master/WorkingPhotos/Tech%20Stacks.jpg)
 
-![TechStacks](https://raw.githubusercontent.com/Sai-Adarsh/ThermalAI/master/WorkingPhotos/Tech%20Stacks.jpg)
 ## Install
 
 ### Activate virtualenv
 
-[Click here](https://stackoverflow.com/questions/14604699/how-to-activate-virtualenv) to read about activating virtualenv.
+* [Click here](https://stackoverflow.com/questions/14604699/how-to-activate-virtualenv) to read about activating virtualenv.
 
 * #### For Linux
 ```sh
@@ -102,32 +98,25 @@ Place your own thermal dataset in training_data and testing_data folders,
    ```sh
    $ ./runthisstress.sh
    ```
-## The stress and no stress score is detected and displayed. 
+### Demo
+* The stress and no stress score is detected and displayed. 
 ![Working](https://github.com/Sai-Adarsh/ThermalAI/blob/master/WorkingPhotos/working.gif)
 
 ### Author
 
-<p align="center"> Made with ❤</p>
-
-[Sai Adarsh](https://github.com/sai-adarsh),
-[Hari Prasath](https://www.linkedin.com/in/hari-prassath-27b3a4172/),
-[Sibi Bose](https://www.linkedin.com/in/sibi-bose-8683b6150/),
-[Surya Vimladithan](https://www.linkedin.com/in/surya-vimladithan-3a43a1179).
-
-[<img src="https://image.flaticon.com/icons/svg/185/185961.svg" width="35" padding="10">](https://twitter.com/dialstudios)
-[<img src="https://image.flaticon.com/icons/svg/185/185964.svg" width="35" padding="10">](linkedin.com/in/sai-adarsh/)
-[<img src="https://image.flaticon.com/icons/svg/185/185981.svg" width="35" padding="10">](https://www.facebook.com/saiadarsh99)
-[<img src="https://image.flaticon.com/icons/svg/185/185985.svg" width="35" padding="10">](https://www.instagram.com/adarsh_theories/)
+* [Sai Adarsh](https://github.com/sai-adarsh)
+* [Hari Prasath](https://www.linkedin.com/in/hari-prassath-27b3a4172/)
+* [Sibi Bose](https://www.linkedin.com/in/sibi-bose-8683b6150/)
+* [Surya Vimladithan](https://www.linkedin.com/in/surya-vimladithan-3a43a1179)
 
 
-### Research papers, news, articles & sources
+### References
 
-[Paper 1](https://www.semanticscholar.org/paper/Facial-Thermal-Image-Analysis-for-Stress-Detection-Hong-Liu/2e8ccf7156629bcf14d43b946397eb04a14b9d78),
-[Paper 2](http://www.pnas.org/content/pnas/suppl/2013/12/26/1321664111.DCSupplemental/pnas.201321664SI.pdf),
-[Source 1](https://www.businesstoday.in/lifestyle/off-track/indians-suffer-from-stress-depression/story/280119.html),
-[Source 2](https://economictimes.indiatimes.com/magazines/panache/89-per-cent-of-indias-population-suffering-from-stress-most-dont-feel-comfortable-talking-to-medical-professionals/articleshow/64926633.cms),
-[Source 3](https://www.mentalhealth.org.uk/statistics/mental-health-statistics-stress),
-[Paper 4](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3968009/),
-[Paper 5](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0090782),
-[Paper 6](https://www.researchgate.net/publication/261206963_Modeling_Stress_Using_Thermal_Facial_Patterns_A_Spatio-Temporal_Approach).
-
+* [Paper 1](https://www.semanticscholar.org/paper/Facial-Thermal-Image-Analysis-for-Stress-Detection-Hong-Liu/2e8ccf7156629bcf14d43b946397eb04a14b9d78)
+* [Paper 2](http://www.pnas.org/content/pnas/suppl/2013/12/26/1321664111.DCSupplemental/pnas.201321664SI.pdf)
+* [Source 1](https://www.businesstoday.in/lifestyle/off-track/indians-suffer-from-stress-depression/story/280119.html)
+* [Source 2](https://economictimes.indiatimes.com/magazines/panache/89-per-cent-of-indias-population-suffering-from-stress-most-dont-feel-comfortable-talking-to-medical-professionals/articleshow/64926633.cms)
+* [Source 3](https://www.mentalhealth.org.uk/statistics/mental-health-statistics-stress)
+* [Paper 4](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3968009/)
+* [Paper 5](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0090782)
+* [Paper 6](https://www.researchgate.net/publication/261206963_Modeling_Stress_Using_Thermal_Facial_Patterns_A_Spatio-Temporal_Approach)
